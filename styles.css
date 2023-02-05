@@ -1,0 +1,87 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+body {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);;
+}
+:where(.container, form, .input-field, header) {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.container {
+background:linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);;
+padding: 30px 65px;
+border-radius: 12px;
+row-gap: 20px;
+box-shadow: 0 5px 10px#391a2c;
+}
+.container header {
+height: 65px;
+width: 65px;
+background: linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);
+color: linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);
+font-size: 8rem;
+border-radius: 50%;
+}
+.container h4 {
+font-size: 1.25rem;
+color:linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);
+font-weight: 500;
+}
+form .input-field {
+flex-direction: row;
+column-gap: 10px;
+}
+.input-field input {
+height: 45px;
+width: 42px;
+border-radius: 6px;
+outline: none;
+font-size: 1.125rem;
+text-align: center;
+border: 1px solid #391a2c;
+}
+.input-field input:focus {
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+display: none;
+}
+form button {
+margin-top: 25px;
+width: 100%;
+color:black;
+font-size: 1rem;
+border: none;
+padding: 9px 0;
+cursor: pointer;
+border-radius: 6px;
+pointer-events: none;
+background:linear-gradient(to right top, #391a2c26, #69293724, #9441311d, #ad681e1b, #ae97001c, #a9af002f, #98c70026, #78e0102d, #89e30a2a, #97e50529, #a3e80229, #b0ea002b);
+transition: all 0.2s ease;
+}
+
+form button.active {
+background:linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);
+pointer-events: auto;
+}
+form button:hover {
+background:linear-gradient(to right top, #391a2c, #692937, #944231, #ad681e, #ae9700, #a8af00, #98c700, #79e010, #87e30a, #95e505, #a2e802, #aeea00);
+}
+.Hussam{
+text-align: center;
+}
+
